@@ -1,0 +1,31 @@
+
+# Ignore specific Jupyter notebooks in the notebooks/ directory
+archived_readmes
+data
+# data/logs
+models
+
+
+# Allow specific notebooks if needed (example below)
+#!notebooks/EDA.ipynb
+
+
+
+
+
+
+.ipynb_checkpoints/
+
+# === OpenAI or API keys ===
+openai_api_key.txt
+*.key
+*.token
+*.secret
+*.env
+.env.*
+
+# === Specific sensitive folders ===
+**/ignore/
+**/keys/
+**/weights/
+**/secrets/

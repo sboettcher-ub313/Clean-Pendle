@@ -1,9 +1,9 @@
 
 # Ignore specific Jupyter notebooks in the notebooks/ directory
 archived_readmes
-data
-# data/logs
-models
+# data
+data/logs
+# models
 
 
 # Allow specific notebooks if needed (example below)

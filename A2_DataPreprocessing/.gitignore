@@ -3,7 +3,7 @@
 # sandbox_week3
 sandbox_week3/data/logs
 
-sandbox_week3/models
+# sandbox_week3/models
 
 # Allow specific notebooks if needed (example below)
 #!notebooks/EDA.ipynb

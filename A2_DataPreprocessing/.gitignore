@@ -1,7 +1,7 @@
 
 # Ignore specific Jupyter notebooks in the notebooks/ directory
 # sandbox_week3
-sandbox_week3/data/logs
+# sandbox_week3/data/logs
 
 # sandbox_week3/models
 

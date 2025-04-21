@@ -1,0 +1,8 @@
+Model,Error,MSE,R² Score,ROC-AUC Score,Accuracy Score,Log Loss,Prediction Time (s),Hotness,Cleverness,Fitness Score,Lineage
+CNN (MLP),"X has 213 features, but MLPClassifier is expecting 217 features as input.",,,,,,,,,,
+Diffusion (GMM),"X has 50 features, but GaussianMixture is expecting 217 features as input.",,,,,,,,,,
+Elastic Net,,0.034944442389635524,0.1663245495768617,0.9760410001958608,0.9561621174524401,0.12628151274151753,0.014660120010375977,0.11852579585007761,0.9661015588241504,0.6835763044994595,Universal Benchmark
+GA-Optimized LR,"X has 213 features, but LogisticRegression is expecting 106 features as input.",,,,,,,,,,
+Gradient Boosting,,7.222659570611309e-11,0.9999999982768779,1.0,1.0,3.6331004562549844e-06,0.007183074951171875,0.9980148883374689,1.0,0.9993382961124896,Universal Benchmark
+NeuroEvolution (NEAT),Can't get attribute 'NEATModelWrapper' on <module '__main__'>,,,,,,,,,,
+SGD,"X has 213 features, but SGDClassifier is expecting 217 features as input.",,,,,,,,,,

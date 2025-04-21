@@ -1,0 +1,2 @@
+Model,MSE,R² Score,ROC-AUC Score,Accuracy Score,Log Loss,Training Time (s),Prediction Time (s),Cross-Validation Stability,Fitness Score,Generation,Lineage,Hotness,Cleverness
+Elastic Net,0.2341,0.0637,0.9055,0.6747,1.1859,0.1942,0.0011,0.1185,0.57,1,Original,0.8902,0.3584

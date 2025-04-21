@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎮 Rare Event Battle Arena</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #ff4757;
+    }
+    .start-btn {
+      display: block;
+      margin: 0 auto 20px;
+      padding: 12px 24px;
+      font-size: 20px;
+      background: #ff6b81;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .log-box {
+      background: #2f3542;
+      border-radius: 10px;
+      padding: 20px;
+      max-height: 600px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      font-size: 15px;
+    }
+    .highlight {
+      color: #2ed573;
+      font-weight: bold;
+    }
+    .ko {
+      color: #ff6b81;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>⚔️ Rare Event Battle Arena</h1>
+  <button class="start-btn" onclick="startBattle()">🎮 Begin Battle</button>
+  <div class="log-box" id="battleLog">Press “Begin Battle” to start...</div>
+
+  <!-- Reference the external battle log data -->
+  <script src="battle_log_data.js"></script>
+
+  <script>
+    let index = 0;
+    let logLines = [];
+
+    function startBattle() {
+      const logBox = document.getElementById('battleLog');
+      logBox.innerHTML = '';
+      index = 0;
+      logLines = battleLog.split('\n'); // Use the multi-line string!
+      nextLine();
+    }
+
+    function nextLine() {
+      if (index >= logLines.length) return;
+      const logBox = document.getElementById('battleLog');
+      const line = logLines[index].trim();
+
+      let lineHTML = line;
+      if (line.includes("PR AUC =")) {
+        lineHTML = "<span class='highlight'>" + line + "</span>";
+      } else if (line.includes("💀") || line.includes("is knocked out") || line.includes("eliminated") || line.includes("falls short")) {
+        lineHTML = "<span class='ko'>" + line + "</span>";
+      }
+
+      if (line) {
+        logBox.innerHTML += lineHTML + "<br>";
+        logBox.scrollTop = logBox.scrollHeight;
+      }
+
+      index++;
+      setTimeout(nextLine, 200); // adjust speed here
+    }
+  </script>
+</body>
+</html>

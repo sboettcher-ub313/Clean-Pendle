@@ -1,0 +1,14 @@
+
+# Ignore specific Jupyter notebooks in the notebooks/ directory
+notebooks/Notes.ipynb
+notebooks/Notebook_0_Data_Collection.ipynb
+notebooks/Notebook_0_Data_Collection copy.ipynb
+
+notebooks/Notes-HIDDEN.ipynb
+
+
+# Allow specific notebooks if needed (example below)
+#!notebooks/EDA.ipynb
+
+
+data

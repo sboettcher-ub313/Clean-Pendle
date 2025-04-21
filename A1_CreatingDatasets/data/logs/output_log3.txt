@@ -1,0 +1,1 @@
+🚀 Elastic Net Results (With Feature Selection & Test Data): {'Elastic Net Best Alpha': 0.01, 'Elastic Net Best L1 Ratio': 0.3, 'Mean Squared Error (MSE)': 0.034556494898462416, 'R² Score': 0.20418194391555966, 'ROC-AUC Score': 0.9760516779580904, 'Accuracy Score': 0.9545078577336642}

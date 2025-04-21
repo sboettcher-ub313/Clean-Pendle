@@ -7,6 +7,6 @@ notebooks/A3.ipynb
 # Allow specific notebooks if needed (example below)
 #!notebooks/EDA.ipynb
 
-data
+# data
 
 .ipynb_checkpoints/

@@ -31,13 +31,13 @@ phase_1/Data_Mining_Mon_Apr_7/pro/Untitled.ipynb
 
 # phase_2
 # phase_2/02__data_wrangling
-phase_2/02__data_wrangling/full_data_sources/
+# phase_2/02__data_wrangling/full_data_sources/
 phase_2/02__data_wrangling/full_data_sources/final_merged_dataset.csv
 phase_2/02__data_wrangling/full_data_sources/fredstuff
 
 
-# phase_2/02__data_wrangling/full_data_sources/final_merged_dataset.parquet
-# phase_2/02__data_wrangling/full_data_sources/rare__final_merged_dataset.parquet
+phase_2/02__data_wrangling/full_data_sources/final_merged_dataset.parquet
+phase_2/02__data_wrangling/full_data_sources/rare__final_merged_dataset.parquet
 
 
 phase_2/02__data_wrangling/full_data_sources/financial_data_btc_era.csv

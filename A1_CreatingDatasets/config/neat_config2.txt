@@ -1,0 +1,76 @@
+[NEAT]
+fitness_criterion     = max
+fitness_threshold     = 0.98
+pop_size              = 50
+reset_on_extinction   = False
+
+[DefaultGenome]
+num_inputs            = 218
+num_outputs           = 1
+num_hidden            = 10
+feed_forward          = True
+
+# 🔹 Activation & Aggregation
+activation_default    = sigmoid
+activation_mutate_rate = 0.1
+aggregation_default   = mean
+aggregation_mutate_rate = 0.1
+
+# 🔹 Force Allowed Activation/Aggregation
+activation_options = sigmoid tanh relu identity
+aggregation_options = sum mean max min
+
+# 🔹 Bias Settings
+bias_init_mean        = 0.0
+bias_init_stdev       = 1.0
+bias_mutate_power     = 0.5
+bias_mutate_rate      = 0.2
+bias_replace_rate     = 0.2
+bias_max_value        = 5
+bias_min_value        = -5
+
+# 🔹 Weight Settings
+weight_init_mean      = 0.0
+weight_init_stdev     = 1.0
+weight_mutate_power   = 0.5
+weight_mutate_rate    = 0.2
+weight_replace_rate   = 0.2
+weight_max_value      = 5
+weight_min_value      = -5
+
+# 🔹 Response Settings (Ensures Proper Signal Processing)
+response_init_mean       = 1.0
+response_init_stdev      = 0.5
+response_mutate_power    = 0.5
+response_mutate_rate     = 0.2
+response_replace_rate    = 0.2
+response_max_value       = 5
+response_min_value       = -5
+
+# 🔹 Connection Mutation Probabilities
+conn_add_prob        = 0.5
+conn_delete_prob     = 0.5
+
+# 🔹 Node Mutation Probabilities
+node_add_prob        = 0.5
+node_delete_prob     = 0.5
+
+# 🔹 Genome Compatibility (Species Separation)
+compatibility_disjoint_coefficient = 0.9
+compatibility_weight_coefficient   = 0.5
+
+# 🔹 **New: Connection Enabled/Disabled Mutations**
+enabled_default      = True
+enabled_mutate_rate  = 0.05
+
+[DefaultSpeciesSet]
+compatibility_threshold = 3.0
+
+[DefaultStagnation]
+species_fitness_func = max
+max_stagnation       = 10
+species_elitism      = 1
+
+[DefaultReproduction]
+elitism            = 1
+survival_threshold = 0.2

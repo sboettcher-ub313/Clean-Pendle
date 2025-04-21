@@ -1,0 +1,12 @@
+
+# Ignore specific Jupyter notebooks in the notebooks/ directory
+notebooks/A2.ipynb
+notebooks/A3.ipynb
+
+
+# Allow specific notebooks if needed (example below)
+#!notebooks/EDA.ipynb
+
+data
+
+.ipynb_checkpoints/

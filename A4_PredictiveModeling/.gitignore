@@ -1,0 +1,78 @@
+
+# Ignore specific Jupyter notebooks in the notebooks/ directory
+# phase_2
+# phase_1/piecemeal_data_aggregation
+# phase_1/Data_Mining_Mon_Apr_7
+# phase_1/sim_data
+# phase_1/fill_data
+
+phase_1/ForParul.ipynb
+phase_1/Untitled.ipynb
+phase_1/sim_data_bundle.zip
+phase_1/piecemeal_data_aggregation/linchpin/notebooks/Batch01_Linchpin_001_to_010.ipynb
+phase_1/piecemeal_data_aggregation/linchpin/notebooks/Batch02_Linchpin_011_to_020.ipynb
+phase_1/piecemeal_data_aggregation/layman/archive
+phase_1/piecemeal_data_aggregation/layman/ignore
+
+
+phase_1/Data_Mining_Mon_Apr_7/layman/Over_Easy/archive
+
+phase_1/piecemeal_data_aggregation/layman/Batch03_Layman_001_to_010.ipynb
+phase_1/piecemeal_data_aggregation/layman/Batch04_Layman_011_to_020.ipynb
+phase_1/piecemeal_data_aggregation/layman/Batch05_Layman_021_to_030-Copy1.ipynb
+phase_1/piecemeal_data_aggregation/layman/Batch05_Layman_021_to_030.ipynb
+phase_1/piecemeal_data_aggregation/layman/Batch06_Layman_031_to_040.ipynb
+
+phase_1/Data_Mining_Mon_Apr_7/layman/Easy/01_pull__layman_fred_variables.ipynb
+phase_1/Data_Mining_Mon_Apr_7/layman/Over_Easy/02_pull__layman_fred_composites.ipynb
+phase_1/fill_data/Batch1_FRED_Loader.ipynb
+
+phase_1/Data_Mining_Mon_Apr_7/pro/Untitled.ipynb
+
+phase_2
+# phase_2/02__data_wrangling
+# phase_2/02__data_wrangling/full_data_sources/
+phase_2/02__data_wrangling/full_data_sources/final_merged_dataset.csv
+phase_2/02__data_wrangling/full_data_sources/fredstuff
+
+
+# phase_2/02__data_wrangling/full_data_sources/final_merged_dataset.parquet
+# phase_2/02__data_wrangling/full_data_sources/rare__final_merged_dataset.parquet
+
+
+phase_2/02__data_wrangling/full_data_sources/financial_data_btc_era.csv
+phase_2/02__data_wrangling/full_data_sources/financial_data_cleaned2.csv
+
+phase_2/00__economic_predictor.zip
+phase_2/week0
+phase_2/Untitled Folder
+phase_2/03__ml_preview/alabamaalaskaarizona/pca_graph_pairs
+phase_2/03__ml_preview/market_shock_synthetic_datasets
+phase_2/03__ml_preview/champion_packages.zip
+
+phase_2/01__data_week0/stock_batches/stock_batches_processing
+
+phase_2/01__data_amfi/gpt_rubberduck
+phase_2/00__economic_predictor/archive
+
+phase_2/01__data_week0/wallstreetbets-sentiment-analysis-main.zip
+
+.ipynb_checkpoints/
+
+# === OpenAI or API keys ===
+openai_api_key.txt
+*.key
+*.token
+*.secret
+*.env
+.env.*
+
+# === Specific sensitive folders ===
+**/ignore/
+**/keys/
+**/weights/
+**/secrets/
+
+
+# Allow specific notebooks if needed (example below)
+#!notebooks/EDA.ipynb

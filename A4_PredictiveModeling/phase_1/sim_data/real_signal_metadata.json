@@ -1,0 +1,27 @@
+{
+  "GDP": {
+    "source": "FRED",
+    "concept_pool": "linchpins",
+    "alias": "gross_domestic_product"
+  },
+  "CPIAUCSL": {
+    "source": "FRED",
+    "concept_pool": "layman_friendly",
+    "alias": "inflation_rate"
+  },
+  "UNRATE": {
+    "source": "FRED",
+    "concept_pool": "linchpins",
+    "alias": "unemployment_rate"
+  },
+  "FEDFUNDS": {
+    "source": "FRED",
+    "concept_pool": "linchpins",
+    "alias": "federal_funds_rate"
+  },
+  "UMCSENT": {
+    "source": "FRED",
+    "concept_pool": "layman_friendly",
+    "alias": "consumer_sentiment"
+  }
+}

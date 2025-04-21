@@ -2,7 +2,7 @@
 # Ignore specific Jupyter notebooks in the notebooks/ directory
 archived_readmes
 # data
-data/logs
+# data/logs
 # models
 
 

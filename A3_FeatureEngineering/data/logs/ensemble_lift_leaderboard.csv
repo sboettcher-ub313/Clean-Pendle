@@ -1,0 +1,57 @@
+Dataset,Approach,PR AUC,Lift Over Baseline,Notes
+market_shock_sim,Baseline Only,0.165,0.0,"No model, just prevalence"
+market_shock_sim,Best Individual Champion,0.178,0.013,Best PR AUC among individual champions
+market_shock_sim,Simple Average Ensemble,0.177,0.012,Average probs across all models
+market_shock_sim,Stacked Logistic Regression,0.172,0.007,Meta-model trained on model outputs
+marketshock_easy_s1,Baseline Only,0.141,0.0,"No model, just prevalence"
+marketshock_easy_s1,Best Individual Champion,0.306,0.164,Best PR AUC among individual champions
+marketshock_easy_s1,Simple Average Ensemble,0.207,0.066,Average probs across all models
+marketshock_easy_s1,Stacked Logistic Regression,0.425,0.283,Meta-model trained on model outputs
+marketshock_easy_s2,Baseline Only,0.136,0.0,"No model, just prevalence"
+marketshock_easy_s2,Best Individual Champion,0.191,0.055,Best PR AUC among individual champions
+marketshock_easy_s2,Simple Average Ensemble,0.107,-0.029,Average probs across all models
+marketshock_easy_s2,Stacked Logistic Regression,0.455,0.319,Meta-model trained on model outputs
+marketshock_easy_s3,Baseline Only,0.133,0.0,"No model, just prevalence"
+marketshock_easy_s3,Best Individual Champion,0.149,0.016,Best PR AUC among individual champions
+marketshock_easy_s3,Simple Average Ensemble,0.098,-0.035,Average probs across all models
+marketshock_easy_s3,Stacked Logistic Regression,0.638,0.505,Meta-model trained on model outputs
+marketshock_extreme_s1,Baseline Only,0.261,0.0,"No model, just prevalence"
+marketshock_extreme_s1,Best Individual Champion,0.261,0.0,Best PR AUC among individual champions
+marketshock_extreme_s1,Simple Average Ensemble,0.258,-0.003,Average probs across all models
+marketshock_extreme_s1,Stacked Logistic Regression,0.257,-0.004,Meta-model trained on model outputs
+marketshock_extreme_s2,Baseline Only,0.255,0.0,"No model, just prevalence"
+marketshock_extreme_s2,Best Individual Champion,0.257,0.002,Best PR AUC among individual champions
+marketshock_extreme_s2,Simple Average Ensemble,0.247,-0.008,Average probs across all models
+marketshock_extreme_s2,Stacked Logistic Regression,0.274,0.019,Meta-model trained on model outputs
+marketshock_extreme_s3,Baseline Only,0.264,0.0,"No model, just prevalence"
+marketshock_extreme_s3,Best Individual Champion,0.27,0.006,Best PR AUC among individual champions
+marketshock_extreme_s3,Simple Average Ensemble,0.271,0.007,Average probs across all models
+marketshock_extreme_s3,Stacked Logistic Regression,0.26,-0.004,Meta-model trained on model outputs
+marketshock_hard_s1,Baseline Only,0.177,0.0,"No model, just prevalence"
+marketshock_hard_s1,Best Individual Champion,0.191,0.014,Best PR AUC among individual champions
+marketshock_hard_s1,Simple Average Ensemble,0.185,0.008,Average probs across all models
+marketshock_hard_s1,Stacked Logistic Regression,0.191,0.014,Meta-model trained on model outputs
+marketshock_hard_s2,Baseline Only,0.164,0.0,"No model, just prevalence"
+marketshock_hard_s2,Best Individual Champion,0.167,0.003,Best PR AUC among individual champions
+marketshock_hard_s2,Simple Average Ensemble,0.162,-0.001,Average probs across all models
+marketshock_hard_s2,Stacked Logistic Regression,0.168,0.004,Meta-model trained on model outputs
+marketshock_hard_s3,Baseline Only,0.155,0.0,"No model, just prevalence"
+marketshock_hard_s3,Best Individual Champion,0.164,0.01,Best PR AUC among individual champions
+marketshock_hard_s3,Simple Average Ensemble,0.157,0.003,Average probs across all models
+marketshock_hard_s3,Stacked Logistic Regression,0.149,-0.006,Meta-model trained on model outputs
+marketshock_medium_s1,Baseline Only,0.141,0.0,"No model, just prevalence"
+marketshock_medium_s1,Best Individual Champion,0.146,0.005,Best PR AUC among individual champions
+marketshock_medium_s1,Simple Average Ensemble,0.128,-0.012,Average probs across all models
+marketshock_medium_s1,Stacked Logistic Regression,0.271,0.13,Meta-model trained on model outputs
+marketshock_medium_s2,Baseline Only,0.144,0.0,"No model, just prevalence"
+marketshock_medium_s2,Best Individual Champion,0.219,0.075,Best PR AUC among individual champions
+marketshock_medium_s2,Simple Average Ensemble,0.151,0.008,Average probs across all models
+marketshock_medium_s2,Stacked Logistic Regression,0.251,0.107,Meta-model trained on model outputs
+marketshock_medium_s3,Baseline Only,0.14,0.0,"No model, just prevalence"
+marketshock_medium_s3,Best Individual Champion,0.237,0.097,Best PR AUC among individual champions
+marketshock_medium_s3,Simple Average Ensemble,0.195,0.055,Average probs across all models
+marketshock_medium_s3,Stacked Logistic Regression,0.255,0.114,Meta-model trained on model outputs
+stock_prediction_clean,Baseline Only,0.502,0.0,"No model, just prevalence"
+stock_prediction_clean,Best Individual Champion,0.381,-0.122,Best PR AUC among individual champions
+stock_prediction_clean,Simple Average Ensemble,0.327,-0.176,Average probs across all models
+stock_prediction_clean,Stacked Logistic Regression,0.919,0.416,Meta-model trained on model outputs

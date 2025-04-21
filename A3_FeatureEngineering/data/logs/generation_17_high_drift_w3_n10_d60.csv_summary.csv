@@ -1,0 +1,7 @@
+Generation,Dataset,Baseline PR AUC,Label,PR AUC,Beats Baseline?,Lineage,Status
+17,high_drift_w3_n10_d60.csv,0.036,Elastic_L70_C10 + Borderline SMOTE_G17,0.178,✅ Yes,child of Elastic_L70_C10 + Borderline SMOTE_G14,✅ Survived
+17,high_drift_w3_n10_d60.csv,0.036,Elastic_L70_C10 + Borderline SMOTE_G17,0.178,✅ Yes,child of Elastic_L70_C10 + Borderline SMOTE_G11,✅ Survived
+17,high_drift_w3_n10_d60.csv,0.036,Elastic_L70_C10 + Borderline SMOTE_G17,0.178,✅ Yes,child of Elastic_L70_C10 + Borderline SMOTE_G9,❌ Eliminated
+17,high_drift_w3_n10_d60.csv,0.036,Elastic_L70_C10 + Borderline SMOTE_G17,0.178,✅ Yes,child of Elastic_L70_C10 + Borderline SMOTE_G9,❌ Eliminated
+17,high_drift_w3_n10_d60.csv,0.036,Elastic_L70_C10 + Borderline SMOTE_G17,0.177,✅ Yes,child of Elastic_L70_C10 + Borderline SMOTE_G14,❌ Eliminated
+17,high_drift_w3_n10_d60.csv,0.036,Elastic_L70_C10 + Borderline SMOTE_G17,0.177,✅ Yes,child of Elastic_L70_C10 + Borderline SMOTE_G11,❌ Eliminated

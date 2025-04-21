@@ -1,0 +1,7 @@
+Generation,Dataset,Baseline PR AUC,Label,PR AUC,Beats Baseline?,Lineage,Status
+25,baseline_easy_w5_n5_d0.csv,0.055,Elastic_L70_C10 + SMOTETomek_G25,0.673,✅ Yes,child of Elastic_L70_C10 + SMOTETomek_G12,❌ Eliminated
+25,baseline_easy_w5_n5_d0.csv,0.055,Elastic_L70_C10 + SMOTETomek_G25,0.673,✅ Yes,child of Elastic_L70_C10 + SMOTETomek_G12,❌ Eliminated
+25,baseline_easy_w5_n5_d0.csv,0.055,Elastic_L70_C10 + SMOTETomek_G25,0.673,✅ Yes,child of Elastic_L70_C10 + SMOTETomek_G11,✅ Survived
+25,baseline_easy_w5_n5_d0.csv,0.055,Elastic_L70_C10 + SMOTETomek_G25,0.673,✅ Yes,child of Elastic_L70_C10 + SMOTETomek_G11,❌ Eliminated
+25,baseline_easy_w5_n5_d0.csv,0.055,Elastic_L70_C10 + SMOTETomek_G25,0.673,✅ Yes,child of Elastic_L70_C10 + SMOTETomek_G7,❌ Eliminated
+25,baseline_easy_w5_n5_d0.csv,0.055,Elastic_L70_C10 + SMOTETomek_G25,0.673,✅ Yes,child of Elastic_L70_C10 + SMOTETomek_G7,✅ Survived

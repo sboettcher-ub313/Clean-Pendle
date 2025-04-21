@@ -1,0 +1,7 @@
+Generation,Dataset,Baseline PR AUC,Label,PR AUC,Beats Baseline?,Lineage,Status
+44,imbalanced_sparse_w0_n10_d10.csv,0.011,Elastic_L70_C10 + Cluster Centroids_G44,0.505,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G0,❌ Eliminated
+44,imbalanced_sparse_w0_n10_d10.csv,0.011,Elastic_L70_C10 + Cluster Centroids_G44,0.505,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G0,❌ Eliminated
+44,imbalanced_sparse_w0_n10_d10.csv,0.011,Elastic_L70_C10 + Cluster Centroids_G44,0.505,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G0,❌ Eliminated
+44,imbalanced_sparse_w0_n10_d10.csv,0.011,Elastic_L70_C10 + Cluster Centroids_G44,0.505,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G0,❌ Eliminated
+44,imbalanced_sparse_w0_n10_d10.csv,0.011,Elastic_L70_C10 + Cluster Centroids_G44,0.073,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G0,❌ Eliminated
+44,imbalanced_sparse_w0_n10_d10.csv,0.011,Elastic_L70_C10 + Cluster Centroids_G44,0.073,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G0,❌ Eliminated

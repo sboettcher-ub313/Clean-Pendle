@@ -1,0 +1,7 @@
+Generation,Dataset,Baseline PR AUC,Label,PR AUC,Beats Baseline?,Lineage,Status
+29,noisy_overlap_w2_n20_d0.csv,0.026,Elastic_L70_C10 + Cluster Centroids_G29,0.11,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G11,✅ Survived
+29,noisy_overlap_w2_n20_d0.csv,0.026,Elastic_L70_C10 + Cluster Centroids_G29,0.11,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G9,❌ Eliminated
+29,noisy_overlap_w2_n20_d0.csv,0.026,Elastic_L70_C10 + Cluster Centroids_G29,0.103,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G9,❌ Eliminated
+29,noisy_overlap_w2_n20_d0.csv,0.026,Elastic_L70_C10 + Cluster Centroids_G29,0.102,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G12,❌ Eliminated
+29,noisy_overlap_w2_n20_d0.csv,0.026,Elastic_L70_C10 + Cluster Centroids_G29,0.101,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G11,❌ Eliminated
+29,noisy_overlap_w2_n20_d0.csv,0.026,Elastic_L70_C10 + Cluster Centroids_G29,0.101,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G12,❌ Eliminated

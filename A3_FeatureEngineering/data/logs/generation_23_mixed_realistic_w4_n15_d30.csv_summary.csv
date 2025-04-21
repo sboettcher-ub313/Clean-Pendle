@@ -1,0 +1,7 @@
+Generation,Dataset,Baseline PR AUC,Label,PR AUC,Beats Baseline?,Lineage,Status
+23,mixed_realistic_w4_n15_d30.csv,0.045,Elastic_L70_C10 + Cluster Centroids_G23,0.209,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G18,✅ Survived
+23,mixed_realistic_w4_n15_d30.csv,0.045,Elastic_L70_C10 + Cluster Centroids_G23,0.206,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G18,❌ Eliminated
+23,mixed_realistic_w4_n15_d30.csv,0.045,Elastic_L70_C10 + Cluster Centroids_G23,0.203,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G19,❌ Eliminated
+23,mixed_realistic_w4_n15_d30.csv,0.045,Elastic_L70_C10 + Cluster Centroids_G23,0.202,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G16,❌ Eliminated
+23,mixed_realistic_w4_n15_d30.csv,0.045,Elastic_L70_C10 + Cluster Centroids_G23,0.2,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G16,❌ Eliminated
+23,mixed_realistic_w4_n15_d30.csv,0.045,Elastic_L70_C10 + Cluster Centroids_G23,0.2,✅ Yes,child of Elastic_L70_C10 + Cluster Centroids_G19,❌ Eliminated

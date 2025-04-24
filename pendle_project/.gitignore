@@ -1,0 +1,17 @@
+*.pyc
+__pycache__/
+.DS_Store
+.ipynb_checkpoints/
+ignore/
+archive/
+.env
+*.pkl
+*.h5
+outputs/
+models/
+
+###
+
+exploratory/
+Untitled*.ipynb
+saved_models/

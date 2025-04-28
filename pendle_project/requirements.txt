@@ -26,3 +26,5 @@ ipykernel  # if you're running Jupyter locally
 wikipedia-api
 snscrape>=0.6.0
 jupyter
+
+shap
